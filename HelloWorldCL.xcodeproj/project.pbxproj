@@ -1,0 +1,227 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		986CFCFB172C1DD200728765 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 986CFCFA172C1DD200728765 /* main.c */; };
+		986CFD04172C1E1800728765 /* helloworld.cl in Sources */ = {isa = PBXBuildFile; fileRef = 986CFD03172C1E1800728765 /* helloworld.cl */; };
+		986CFD06172C1FD700728765 /* OpenCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 986CFD05172C1FD700728765 /* OpenCL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		986CFCF5172C1DD200728765 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		986CFCF7172C1DD200728765 /* HelloWorldCL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HelloWorldCL; sourceTree = BUILT_PRODUCTS_DIR; };
+		986CFCFA172C1DD200728765 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		986CFD03172C1E1800728765 /* helloworld.cl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.opencl; path = helloworld.cl; sourceTree = "<group>"; };
+		986CFD05172C1FD700728765 /* OpenCL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCL.framework; path = System/Library/Frameworks/OpenCL.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		986CFCF4172C1DD200728765 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				986CFD06172C1FD700728765 /* OpenCL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		986CFCEE172C1DD200728765 = {
+			isa = PBXGroup;
+			children = (
+				986CFD05172C1FD700728765 /* OpenCL.framework */,
+				986CFCF9172C1DD200728765 /* HelloWorldCL */,
+				986CFCF8172C1DD200728765 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		986CFCF8172C1DD200728765 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				986CFCF7172C1DD200728765 /* HelloWorldCL */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		986CFCF9172C1DD200728765 /* HelloWorldCL */ = {
+			isa = PBXGroup;
+			children = (
+				986CFCFA172C1DD200728765 /* main.c */,
+				986CFD03172C1E1800728765 /* helloworld.cl */,
+			);
+			path = HelloWorldCL;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		986CFCF6172C1DD200728765 /* HelloWorldCL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 986CFD00172C1DD200728765 /* Build configuration list for PBXNativeTarget "HelloWorldCL" */;
+			buildPhases = (
+				986CFCF3172C1DD200728765 /* Sources */,
+				986CFCF4172C1DD200728765 /* Frameworks */,
+				986CFCF5172C1DD200728765 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloWorldCL;
+			productName = HelloWorldCL;
+			productReference = 986CFCF7172C1DD200728765 /* HelloWorldCL */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		986CFCEF172C1DD200728765 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Gurrrik;
+			};
+			buildConfigurationList = 986CFCF2172C1DD200728765 /* Build configuration list for PBXProject "HelloWorldCL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 986CFCEE172C1DD200728765;
+			productRefGroup = 986CFCF8172C1DD200728765 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				986CFCF6172C1DD200728765 /* HelloWorldCL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		986CFCF3172C1DD200728765 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				986CFCFB172C1DD200728765 /* main.c in Sources */,
+				986CFD04172C1E1800728765 /* helloworld.cl in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		986CFCFE172C1DD200728765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		986CFCFF172C1DD200728765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		986CFD01172C1DD200728765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OPENCL_OPTIMIZATION_LEVEL = 2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		986CFD02172C1DD200728765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OPENCL_OPTIMIZATION_LEVEL = 2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		986CFCF2172C1DD200728765 /* Build configuration list for PBXProject "HelloWorldCL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				986CFCFE172C1DD200728765 /* Debug */,
+				986CFCFF172C1DD200728765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		986CFD00172C1DD200728765 /* Build configuration list for PBXNativeTarget "HelloWorldCL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				986CFD01172C1DD200728765 /* Debug */,
+				986CFD02172C1DD200728765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 986CFCEF172C1DD200728765 /* Project object */;
+}
