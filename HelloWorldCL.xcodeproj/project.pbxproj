@@ -10,6 +10,7 @@
 		986CFCFB172C1DD200728765 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 986CFCFA172C1DD200728765 /* main.c */; };
 		986CFD04172C1E1800728765 /* helloworld.cl in Sources */ = {isa = PBXBuildFile; fileRef = 986CFD03172C1E1800728765 /* helloworld.cl */; };
 		986CFD06172C1FD700728765 /* OpenCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 986CFD05172C1FD700728765 /* OpenCL.framework */; };
+		9885AA8A187C710D0042A36E /* vectorsum.cl in Sources */ = {isa = PBXBuildFile; fileRef = 9885AA89187C710D0042A36E /* vectorsum.cl */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		986CFCFA172C1DD200728765 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		986CFD03172C1E1800728765 /* helloworld.cl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.opencl; path = helloworld.cl; sourceTree = "<group>"; };
 		986CFD05172C1FD700728765 /* OpenCL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCL.framework; path = System/Library/Frameworks/OpenCL.framework; sourceTree = SDKROOT; };
+		9885AA89187C710D0042A36E /* vectorsum.cl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.opencl; path = vectorsum.cl; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 			children = (
 				986CFCFA172C1DD200728765 /* main.c */,
 				986CFD03172C1E1800728765 /* helloworld.cl */,
+				9885AA89187C710D0042A36E /* vectorsum.cl */,
 			);
 			path = HelloWorldCL;
 			sourceTree = "<group>";
@@ -95,7 +98,7 @@
 		986CFCEF172C1DD200728765 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Gurrrik;
 			};
 			buildConfigurationList = 986CFCF2172C1DD200728765 /* Build configuration list for PBXProject "HelloWorldCL" */;
@@ -122,6 +125,7 @@
 			files = (
 				986CFCFB172C1DD200728765 /* main.c in Sources */,
 				986CFD04172C1E1800728765 /* helloworld.cl in Sources */,
+				9885AA8A187C710D0042A36E /* vectorsum.cl in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,7 +136,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
@@ -164,7 +167,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
@@ -220,6 +222,7 @@
 				986CFD02172C1DD200728765 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
