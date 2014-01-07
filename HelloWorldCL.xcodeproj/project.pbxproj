@@ -11,6 +11,7 @@
 		986CFD04172C1E1800728765 /* helloworld.cl in Sources */ = {isa = PBXBuildFile; fileRef = 986CFD03172C1E1800728765 /* helloworld.cl */; };
 		986CFD06172C1FD700728765 /* OpenCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 986CFD05172C1FD700728765 /* OpenCL.framework */; };
 		9885AA8A187C710D0042A36E /* vectorsum.cl in Sources */ = {isa = PBXBuildFile; fileRef = 9885AA89187C710D0042A36E /* vectorsum.cl */; };
+		9885AA8C187C8E260042A36E /* matrixmult.cl in Sources */ = {isa = PBXBuildFile; fileRef = 9885AA8B187C8E260042A36E /* matrixmult.cl */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		986CFD03172C1E1800728765 /* helloworld.cl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.opencl; path = helloworld.cl; sourceTree = "<group>"; };
 		986CFD05172C1FD700728765 /* OpenCL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCL.framework; path = System/Library/Frameworks/OpenCL.framework; sourceTree = SDKROOT; };
 		9885AA89187C710D0042A36E /* vectorsum.cl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.opencl; path = vectorsum.cl; sourceTree = "<group>"; };
+		9885AA8B187C8E260042A36E /* matrixmult.cl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.opencl; path = matrixmult.cl; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				986CFCFA172C1DD200728765 /* main.c */,
 				986CFD03172C1E1800728765 /* helloworld.cl */,
 				9885AA89187C710D0042A36E /* vectorsum.cl */,
+				9885AA8B187C8E260042A36E /* matrixmult.cl */,
 			);
 			path = HelloWorldCL;
 			sourceTree = "<group>";
@@ -124,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				986CFCFB172C1DD200728765 /* main.c in Sources */,
+				9885AA8C187C8E260042A36E /* matrixmult.cl in Sources */,
 				986CFD04172C1E1800728765 /* helloworld.cl in Sources */,
 				9885AA8A187C710D0042A36E /* vectorsum.cl in Sources */,
 			);
